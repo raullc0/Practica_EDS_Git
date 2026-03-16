@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Contacto</title>
+	    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+        <h3>Contacto</h3>
+        <form action="maneja_formulario.php" method="post">
+			<fieldset>
+				<label for="nombre">Nombre</label> <br/>
+				<input type="text" id="nombre" name="nombre" maxlength="15" autofocus required/>
+				<br/>
+				<label for="apellidos">Apellidos</label> <br/> 
+				<input type="text" id="apellidos" name="apellidos" maxlength="40" required/>
+				<br/>
+				<label for="email">Email</label> <br/> 
+				<input type="text" id="email" name="email" size="10" maxlength="20" />
+				
+			</fieldset>
+			<p><button type="submit" id="botonEnvio"><strong>Enviar</strong></button></p>
+			<p><button type="reset" id="botonBorrado"><strong>Borrar</strong></button></p>
+		</form>
+    </body>
+</html>
